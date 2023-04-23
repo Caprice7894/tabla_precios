@@ -1,0 +1,10 @@
+body{
+	padding: 1em 5em;
+}
+th{
+	font-weight: bolder;
+}
+.form{
+	display: flex;
+	justify-content: space-evenly;
+}
