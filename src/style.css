@@ -8,3 +8,16 @@ th{
 	display: flex;
 	justify-content: space-evenly;
 }
+
+@media screen and (max-width: 414px) {
+	.form{
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.form > div{
+		width: 100%;
+	}
+}
